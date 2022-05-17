@@ -1,3 +1,7 @@
+body {
+    background-color: #a6e1ec;
+}
+
 #wrapper {
     width: 700px;
     height: 730px;
@@ -5,7 +9,7 @@
     content: center; 
     padding: 10px 20px;
     background-color: #a6e1ec;
-    color: #2ea620;
+    /* color: #2ea620; */
 } 
 
 img {
