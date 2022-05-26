@@ -29,3 +29,7 @@ li{
     font: size 14px;
     border-bottom: 1px solid #000000;
 }
+
+ul {
+    list-style: none;
+}
