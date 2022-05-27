@@ -1,0 +1,24 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header h1 {
+      display: inline-block;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: green
+}
+
+/* nav {
+    pad
+} */
+
+nav {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
