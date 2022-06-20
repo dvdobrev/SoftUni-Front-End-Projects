@@ -1,0 +1,208 @@
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 50px 100px;
+}
+
+header {
+    border-bottom: 2px solid black;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+#qoute-div {
+    display: flex;
+    width: 100%;
+}
+
+blockquote {
+    flex-direction: column;
+    font-family: Georgia, serif;
+    color: gray;
+    border-left: 2px solid rgb(180, 179, 179);
+    padding-left: 30px;
+    width: 40%;
+}
+
+#text {
+    width: 60%;
+}
+
+#autor {
+    text-align: right;
+}
+
+
+/* aside>section a {
+    color: rgb(0, 153, 0);
+} */
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+/* main,
+aside {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* main {
+    width: 80%;
+} */
+
+/* aside {
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+
+} */
+
+.Img1 {
+    float: right;
+    margin-left: 12px;
+    margin-bottom: 4px;
+    border: 3px solid black;
+    padding: 4px;
+}
+
+.Img2 {
+    float: left;
+    border: 3px solid black;
+    padding: 4px;
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 500px) {
+    p {
+        font-size: 12px;
+        background-color: yellow;
+    }
+
+    .Img1 {
+        float: none;
+        margin-left: 0;
+    }
+
+
+    #qoute-div {
+        display: block;
+    }
+
+    #text {
+        width: 100%;
+    }
+
+    blockquote {
+        display: inline-block;
+        width: auto;
+    }
+
+    blockquote p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-right: -40px;
+    }
+
+    #autor {
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    p {
+        font-size: 14px;
+        background-color: lightblue;
+
+    }
+
+    .Img1 {
+        float: none;
+        margin-left: 0;
+    }
+
+
+    #qoute-div {
+        display: block;
+    }
+
+    #text {
+        width: 100%;
+    }
+
+    blockquote {
+        display: inline-block;
+        width: auto;
+    }
+
+    blockquote p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-right: -40px;
+    }
+
+    #autor {
+        padding-top: 10px;
+    }
+
+    .Img2 {
+        float: none;
+
+    }
+}
+
+/* @media screen and (min-width: 601px) and (max-width: 800){
+    p {
+        font-size: 16px;
+        background-color: red;
+
+    }
+} */
+
+@media screen and (min-width: 600px){
+    p {
+        font-size: 16px;
+        background-color: red;
+    }
+    body {
+        padding: 24px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        font-size: 18px;
+        background-color: pink;
+    }
+
+    body {
+        padding: 42px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    p {
+        font-size: 21px;
+        background-color: green;
+    }
+    body {
+        padding: 60px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    p {
+        font-size: 23px;
+        background-color: purple;
+    }
+
+    body {
+        padding: 80px;
+    }
+}
