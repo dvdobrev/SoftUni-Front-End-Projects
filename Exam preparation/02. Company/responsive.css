@@ -1,0 +1,70 @@
+@media screen and (max-width: 600px) {
+
+    .hero-head {
+        background-image: none;
+        background-color: black;
+        margin-right: none;
+    }
+
+    /* body > div > section.hero-head > header > a {
+        
+    } */
+
+    .main-nav {
+        display: none;
+    }
+
+    .wrapper {
+        text-align: center;
+        width: 100%;
+    }
+
+    section.hero-head {
+        max-width: 98%;
+    }
+
+    .wrapper h1 {
+        line-height: 1.8;
+        font-size: 2.5rem;
+        width: 100%;
+
+
+    }
+
+    .hero-head .goal {
+        max-width: 100%;
+        line-height: 2;
+        float: unset;
+        font-size: 22px;
+        padding: 10px 24px;
+    }
+
+    section.content-wrap.two-col {
+        display: block;
+
+
+    }
+
+    .button.js-modal-open {
+        width: 90%;
+    }
+
+    .module-text.centered {
+        font-size: 23px;
+        padding: 24px 27px;
+    }
+
+    .sponsors-list li{
+        height: auto;
+        width: auto;
+    }
+
+    .main-foot .wrapper {
+        flex-direction: column;
+    }
+
+    .main-foot .bottom .copyright {
+        float: none;
+    }
+
+}
