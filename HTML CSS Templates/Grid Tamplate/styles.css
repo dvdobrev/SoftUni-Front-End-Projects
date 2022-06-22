@@ -1,0 +1,33 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+
+/* Footer */
+
+footer {
+    background-color: yellow;
+    display: grid;
+    grid-template-areas: 
+    "article article article article";
+    justify-items: center;
+    justify-content: space-evenly;
+    min-height: 200px;
+
+}
+
+footer article {
+    background-color: lightgray;
+}
+
+footer article h2 {
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+footer article p {
+    background-color: lightcyan;
+    color: rgb(138, 135, 135);
+}
+
+footer img {
+    padding-top: 20px;
+}
