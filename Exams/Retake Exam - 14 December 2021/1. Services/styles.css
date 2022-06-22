@@ -1,0 +1,70 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300&family=Montserrat+Alternates:wght@900&family=Montserrat:wght@300&family=Poppins&family=Raleway:wght@100&family=Roboto&display=swap');
+
+
+html {
+    font-family: Poppins;
+}
+
+.d1 {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.h1 {
+    color: black;
+}
+
+
+.p1 {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.h2 {
+    color: rgb(122, 186, 27);
+    padding-left: 10px;
+}
+
+
+main {
+    margin: 60px 10px;
+    display: flex;
+    gap: 18px;
+}
+
+.card {
+    background-color: rgb(227, 222, 222);
+    max-width: 370px;
+    min-height: 550px
+}
+
+.card:nth-child(1) {
+    margin-left: 10px;
+
+}
+
+.card .bold-text {
+    max-block-size: 0;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card .bold-text,
+.card .reguler-text,
+button {
+    padding: 10px 20px;
+}
+
+.card button {
+    background-color: rgb(15, 206, 15);
+    color: white;
+    margin-left: 20px;
+    height: 40px;
+    width: 140px;
+    border-radius: 50px;
+    border: transparent;
+}

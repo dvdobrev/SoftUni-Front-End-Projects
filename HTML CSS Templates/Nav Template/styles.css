@@ -1,0 +1,32 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+
+header {
+    background-color: yellow;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 62px;
+    padding-top: 20px;
+}
+
+header nav ul {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    height: 40px;
+    font-size: 1.1rem;
+}
+
+header nav ul li {
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
