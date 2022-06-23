@@ -1,0 +1,266 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&family=Poppins&family=Raleway&display=swap');
+
+header {
+    background-color: #efefef;
+}
+
+header div {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: -33px;
+}
+
+header div p {
+    margin-right: 8px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Section 1 ------------------------------------------------------*/
+
+.a1,
+.a2,
+.a3,
+.a4,
+.a5,
+.a6,
+footer {
+    background-color: #efefef;
+    display: grid;
+    grid-template-areas:
+        "section img";
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    justify-content: space-evenly;
+    height: 420px;
+    padding: 0px 68px;
+}
+
+.a1-s1 div {
+    display: flex;
+    gap: 10px;
+}
+
+.a1-s1 .h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.a1-s1 .h2 {
+    font-size: 40px;
+    color: gray;
+}
+
+.a1 p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.a1 img {
+    width: 100%;
+}
+
+.line {
+    height: 60px;
+    border-left: 2px solid #636363;
+    margin-top: 32px;
+}
+
+/* Section 2 ------------------------------------------------------*/
+
+
+
+.a2-s1 {
+    margin-right: 20px;
+}
+
+.a2-s1 div {
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    max-height: 78px;
+}
+
+.a2-s1 .h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.a2-s1 .h2 {
+    font-size: 32px;
+    color: gray;
+}
+
+.a2 p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.a2 img {
+    max-width: 64%;
+    padding-top: 44px;
+}
+
+.line2 {
+    height: 60px;
+    max-width: 60px;
+    border-top: 2px solid #636363;
+    position: relative;
+    transform: translate(0px, 208%);
+    margin-top: -60px;
+}
+
+.a2-s1 .icons {
+    justify-content: flex-end;
+    font-size: 34px;
+}
+
+/* Section 3 ------------------------------------------------------*/
+
+.a3 {
+    display: contents;
+}
+
+.a3 img {
+    height: inherit;
+    width: inherit
+}
+
+/* Section 4 ------------------------------------------------------*/
+
+.a4 {
+    align-items: center;
+}
+
+
+.a4-s1 div {
+    display: flex;
+    gap: 10px;
+}
+
+.a4-s1 .h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.a4-s1 .h2 {
+    font-size: 40px;
+    color: gray;
+}
+
+.a4 p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.a4 img {
+    width: 100%;
+}
+
+.line {
+    height: 60px;
+    border-left: 2px solid #636363;
+    margin-top: 32px;
+}
+
+/* Section 5 ------------------------------------------------------*/
+
+.a5 {
+    align-items: start;
+    justify-items: center;
+    max-height: inherit;
+
+}
+
+.a5 img {
+    width: 80%;
+    height: 70%;
+    padding: 70px 0;
+}
+
+
+.a5 .bb {
+    height: 80%;
+    transform: translate(60%, -439px);
+    max-width: 500px;
+}
+
+/* Section 6 ------------------------------------------------------*/
+
+.a6 {
+    /* background-color: yellow; */
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.a6-s1 div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.a6-s1 .h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.a6-s1 .h2 {
+    font-size: 40px;
+    color: gray;
+}
+
+.a6 p {
+    line-height: 1.6;
+    font-size: 14px;
+    margin-top: -22px;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+input {
+    border: 1px solid rgb(119, 116, 116);
+}
+
+.email {
+    height: 32px;
+}
+
+.subject {}
+
+.message {
+    height: 80px;
+    width: 208%;
+}
+
+form p {
+    position: relative;
+    transform: translate(-143%, 34%);
+    color: gray;
+}
+
+button {
+    height: 40px;
+    width: 212%;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    transform: translate(-100px, 80px);   
+}

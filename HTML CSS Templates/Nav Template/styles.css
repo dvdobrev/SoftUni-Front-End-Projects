@@ -4,7 +4,7 @@
 header {
     background-color: yellow;
     display: flex;
-    max-width: 100%;
+    width: 100%;
     justify-content: space-around;
     align-content: center;
     align-items: center;
