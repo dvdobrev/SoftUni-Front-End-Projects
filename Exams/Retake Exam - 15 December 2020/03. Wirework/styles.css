@@ -1,0 +1,232 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+:root {
+    --red-color: #e24e2a;
+}
+
+/* Header -------------------------------------------------------------*/
+
+header {
+    background-color: yellow;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 70px;
+    padding-top: 20px;
+}
+
+header div {
+    display: flex;
+    width: 32%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header div h1 {
+    font-size: 28px;
+    border-right: 3px solid rgb(163, 157, 157);
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+header div p {
+    color: grey;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    gap: 2px;
+    height: 40px;
+    font-size: 1.1rem;
+}
+
+header nav ul li {
+    background-color: rgb(224, 218, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+header nav ul li:nth-child(1) {
+    background-color: var(--red-color);
+}
+
+header nav ul li:nth-child(1) a {
+    color: white;
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Main -------------------------------------------------------------*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section 1 --------------------------------------------------------*/
+
+main section {
+    height: 550px;
+    max-width: 1650px;
+}
+
+main img {
+    width: -webkit-fill-available;
+    max-height: 125%;
+}
+
+/* Section 2 --------------------------------------------------------*/
+
+.s2 p {
+    display: flex;
+    align-items: center;
+    background-color: var(--red-color);
+    height: 106px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 83px;
+    line-height: 1.6;
+
+}
+
+.cards {
+    background-color: #383838;
+    display: flex;
+    gap: 10px;
+    padding: 0px 20px;
+    height: calc(100% - 106px);
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards h2 {
+    color: white;
+    font-size: 24px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card i {
+    background-color: var(--red-color);
+    font-size: 54px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.card p {
+    background-color: #383838;
+    padding: unset;
+    color: grey;
+    border-top: 3px solid rgb(193, 188, 188);
+}
+
+/* Section 3 --------------------------------------------------------*/
+
+.s3 {
+    background-color: lightcoral;
+}
+
+.s3d1 {
+    background-color: white;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3d1 h2 {
+    font-size: 32px;
+
+}
+
+.s3d1 p {
+    color: grey;
+    margin-top: 6px;
+    margin-bottom: 32px;
+}
+
+.s3d1 button {
+    background-color: #1b9772;
+    color: white;
+    height: 40px;
+    width: 262px;
+    border: transparent;
+    letter-spacing: 6px;
+
+}
+
+
+.s3d2 {
+    background-color: #383838;
+    display: flex;
+    gap: 10px;
+    padding: 0px 20px;
+    height: calc(100% - 220px);
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s3d2 h2 {
+    /* background-color: green; */
+    color: white;
+    font-size: 24px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.s3d2 .card p {
+    background-color: #383838;
+    padding: unset;
+    border: unset;
+    margin-top: 12px;
+}
+
+/* Footer -----------------------------------------------------------*/
+
+footer {
+    background-color: #1b9772;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 106px;
+}
+
+
+footer p {
+    color: rgb(184, 180, 180);
+
+}
