@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px) {
+    
+    main .left-to-right article {
+        border-radius: 20%;
+        width: auto;
+        height: auto;
+        padding: 0px 28px;
+
+    }
+    
+    .left-to-right:first-child {
+        height: 550px;
+
+    }
+
+
+    main .left-to-right article button {
+        display: none;
+    }
+
+    main section:nth-child(2) {
+        display: unset;
+    }
+
+    main section:nth-child(2) button {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    #send {
+        margin-left: 14%;
+    }
+
+    body > main > section:nth-child(4) {
+        display: unset;
+    }
+
+    body > main > section:nth-child(4) > article:nth-child(2) > img {
+        height: 300px;
+        width: 300px;
+        /* position: absolute; */
+
+    }
+
+
+}
